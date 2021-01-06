@@ -1,0 +1,89 @@
+.custom_section_title .custom_section_title--divider{
+    display: block;
+    width: 300px;
+    height: 2px;
+    background: #a80014;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.custom_fitness_img{
+    object-position: center;
+    object-fit: cover;
+    height: 371px;
+}
+.custom_card_layer{
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: calc(100% - 30px);
+    height: 100%;
+    background-color: rgb(0 0 0 / 38%);
+    transition: all ease 0.5s;
+}
+.custom_card_layer:hover{
+    background-color: unset;
+}
+.custom_card_layer h2.heading{
+    font-size: 24px;
+    font-family: "Diavolo-Bold", Sans-serif;
+    font-weight: 700;
+}
+.custom_more_info{
+    color: #FFEA2D!important;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: "Futura-medium-bt", Sans-serif;
+}
+.custom_more_info i{
+    color: #A60014!important;
+    /* transform: rotate(-90deg); */
+    margin-left: 5px;
+}
+.custom_more_info.active i{
+    transform: unset;
+}
+.custom_toggle h2.custom_text-red{
+    color: rgb(125, 0, 0);
+    font-size: 24px;
+    font-family: "Diavolo-Bold", Sans-serif;
+    font-weight: 700;
+}
+.text-dark{
+    font-size: 16px;
+    font-family: "Futura-medium-bt", Sans-serif;
+    font-weight: 500;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.custom_btn{
+    padding: 0 10px;
+    border: 1px solid #888888;
+    font-weight: 600;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+}
+.custom_btn:hover{
+    background: #82B43C!important;
+}
+.custom_btn img{
+    width: 60px;
+}
+.custom_link-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: "Futura-medium-bt", Sans-serif;
+    font-weight: 600;
+    background: linear-gradient(to right ,rgb(166,0,20), rgb(225,0,25));
+    text-decoration: none!important;
+}
+
+@media (min-width: 576px){
+    .custom_btn{
+        width: 45%;
+    }
+}
