@@ -87,3 +87,16 @@
         width: 45%;
     }
 }
+@media (max-width: 767px){
+    .d-flex.flex-column.flex-sm-row.w-100.justify-content-between.mt-3.btn-lr-p{
+        padding-right:0;
+        padding-left: 0;
+    }
+    .d-flex.flex-column.flex-sm-row.w-100.justify-content-between.mt-3.btn-lr-p a{
+        padding: 10px 25px;
+        font-size: 16px;
+    }
+    h3.middle-btn-text{
+    font-size:14px !important;
+    }
+}
